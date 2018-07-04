@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.3",
     "vue": "^2.5.11"
   },
   "browserslist": [
