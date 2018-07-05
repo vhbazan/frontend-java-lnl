@@ -3,14 +3,7 @@
     <div class="container">
       <dashboard></dashboard>
 
-      <ul>
-        <li v-for="player in myData.stickers" v-bind:key="player.id">
-          Name: {{player.name}} 
-        </li>
-      </ul>
-
-
-	  	<div style="margin-top: 2rem; padding-bottom: 1rem;"><h1>Vue.js &amp;&amp; Bootstrap 4</h1></div>
+      <div style="margin-top: 2rem; padding-bottom: 1rem;"><h1>Vue.js &amp;&amp; Bootstrap 4</h1></div>
       <img src="./assets/logo.png">
       <h2>{{ msg }}</h2>
       
