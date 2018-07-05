@@ -1,0 +1,66 @@
+{
+  "stickers": [
+    {
+      "id":1, 
+      "stickerId": 123,
+      "name": "John Doe",
+      "postion": "Defender", 
+      "img_url": "1.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    }, 
+    {
+      "id":2, 
+      "stickerId": 223,
+      "name": "Peter Pan",
+      "postion": "Midfielder", 
+      "img_url": "2.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    },
+
+    {
+      "id":3, 
+      "stickerId": 23,
+      "name": "Jou Rney",
+      "postion": "Forward", 
+      "img_url": "3.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    }, 
+    {
+      "id":4, 
+      "stickerId": 100,
+      "name": "John Doe",
+      "postion": "Defender", 
+      "img_url": "4.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    }, 
+    {
+      "id":5, 
+      "stickerId": 53,
+      "name": "Van Damme",
+      "postion": "Goalkeeper", 
+      "img_url": "5.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    }, 
+    {
+      "id":6, 
+      "stickerId": 289,
+      "name": "Nei Mar",
+      "postion": "Forward", 
+      "img_url": "6.png", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"BR", 
+      "isAvailable": true
+    }
+
+  ]
+}
