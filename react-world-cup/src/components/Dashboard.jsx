@@ -1,9 +1,15 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Button} from 'reactstrap';
+import json from '../assets/json/data.json';
+import StickerCard from './StickerCard';
 
-const Dashboard = () => (
+const Dashboard = (props) => (
   <div>
-    <h1 class="float-left">2018 FIFA World Cup Russia - Stickers catalogue</h1>
+    <div className="row">
+    <h1 className="float-left">2018 FIFA World Cup Russia - Stickers catalogue</h1>
+    <br/>
+    
+    </div>
   </div>
 );
 

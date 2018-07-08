@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {AppContainer} from 'react-hot-loader'
 import Routes from './routes'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const renderApp = (Component) => {
   ReactDOM.render(
