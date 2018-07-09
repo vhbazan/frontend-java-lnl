@@ -2,20 +2,22 @@
   "stickers": [
     {
       "id":1, 
+      "key":1, 
       "stickerId": 123,
       "name": "John Doe",
       "postion": "Defender", 
-      "img_url": "1.png", 
+      "img_url": "1.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
     }, 
     {
       "id":2, 
+      "key":2, 
       "stickerId": 223,
       "name": "Peter Pan",
       "postion": "Midfielder", 
-      "img_url": "2.png", 
+      "img_url": "2.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
@@ -23,30 +25,33 @@
 
     {
       "id":3, 
+      "key":3, 
       "stickerId": 23,
       "name": "Jou Rney",
       "postion": "Forward", 
-      "img_url": "3.png", 
+      "img_url": "3.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
     }, 
     {
       "id":4, 
+      "key":4, 
       "stickerId": 100,
       "name": "John Doe",
       "postion": "Defender", 
-      "img_url": "4.png", 
+      "img_url": "4.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
     }, 
     {
       "id":5, 
+      "key":5, 
       "stickerId": 53,
       "name": "Van Damme",
       "postion": "Goalkeeper", 
-      "img_url": "5.png", 
+      "img_url": "5.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
@@ -56,9 +61,19 @@
       "stickerId": 289,
       "name": "Nei Mar",
       "postion": "Forward", 
-      "img_url": "6.png", 
+      "img_url": "6.svg", 
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
+      "isAvailable": true
+    }, 
+    {
+      "id":7, 
+      "stickerId": 890,
+      "name": "John McDoe",
+      "postion": "Goalkeeper", 
+      "img_url": "7.svg", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"EN", 
       "isAvailable": true
     }
 

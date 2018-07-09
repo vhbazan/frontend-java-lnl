@@ -65,6 +65,16 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
       "country_code":"BR", 
       "isAvailable": true
+    }, 
+    {
+      "id":7, 
+      "stickerId": 890,
+      "name": "John McDoe",
+      "postion": "Goalkeeper", 
+      "img_url": "7.svg", 
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum luctus commodo sociis, rutrum id habitant lacus ac quam faucibus ornare blandit egestas.",
+      "country_code":"EN", 
+      "isAvailable": true
     }
 
   ]
