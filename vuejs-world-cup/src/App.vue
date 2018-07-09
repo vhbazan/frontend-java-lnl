@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <div class="container">
+      <h1 class="col-md-12">{{ msg }}</h1>
+      <img src="./assets/logo.png">
+      <h2>Vue.js &amp;&amp; Bootstrap 4</h2>
       <dashboard></dashboard>
 
-      <div style="margin-top: 2rem; padding-bottom: 1rem;"><h1>Vue.js &amp;&amp; Bootstrap 4</h1></div>
-      <img src="./assets/logo.png">
-      <h2>{{ msg }}</h2>
+     
+      
       
       <hr>
 
@@ -18,6 +20,17 @@
             <strong>Well done!</strong> You successfully read this {{brand}} alert message.
             </div>
       </div>
+      <!-- Cards -->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/logo.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
       <h2>Breadcrumb</h2>
       <div style="padding: 1rem;">
         <ol class="breadcrumb">
