@@ -5,7 +5,7 @@ Repository for the VueJS and React Lunch and Learn session. This repository cont
 ```
 git clone https://github.com/vhbazan/frontend-java-lnl.git
 ```
-
+## Install dependencies for both projects
 
 #### VueJS 
 ```
