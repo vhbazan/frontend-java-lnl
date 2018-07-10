@@ -1,14 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1 class="col-md-12">{{ msg }}</h1>
-      <img src="./assets/logo.png">
-      <h2>Vue.js &amp;&amp; Bootstrap 4</h2>
       <dashboard></dashboard>
-
-     
-      
-      
       <hr>
 
       <h1>Bootstrap components: </h1>
@@ -97,7 +90,6 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Java Lunch and Learn - Frontend Session ', 
       myData: json
     }
   }
@@ -107,30 +99,13 @@ export default {
 <style lang="scss">
 @import 'scss/custom-bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-#app {
+/* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
 </style>
