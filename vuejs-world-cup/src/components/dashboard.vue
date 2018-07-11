@@ -1,23 +1,25 @@
 <template>
   <div>
-    <div class="text-center">
-      <h1 class="col-md-12">{{ lunchAndLearnTitle }}</h1>
-      <img src="../assets/logo.png">
-      <h2>Vue.js &amp;&amp; Bootstrap 4</h2>
-      <div class="clearfix"></div>
-  </div>
-
     <h1 class="float-left d-block m-2">{{appTitle}}</h1>
     <div class="clearfix"></div>
+    <div class="mb-3 ">
+      <search-sticker></search-sticker>
+    </div>
+    <div class="row">
+    <wc-sticker v-for="sticker in this.stickers" v-bind:key="sticker.id"
+        v-bind:stickerData="sticker"></wc-sticker>
+    </div>
   </div>
 </template>
 <script>
+import jsonData from '../assets/json/data.json';
 
 export default {
   name: 'dashboard',
   data() { return   { 
     lunchAndLearnTitle: 'Java Lunch and Learn - Frontend Session ', 
     appTitle: '2018 FIFA World Cup Russia - Stickers catalogue',
+    stickers: jsonData.stickers
   }
   }, 
   
