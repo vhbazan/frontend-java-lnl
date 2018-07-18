@@ -1,20 +1,20 @@
 <template>
   <div class="card col-md-3" style="">
       <h5 class="card-title text-center align-middle mb-1">{{stickerData.name}}</h5>
-      <div class="col-md-12 mt-0 card-body">
+      <div class="card-body col-md-12 p-2 mt-0">
       <img class="card-img-top md-1"  v-bind:alt="stickerData.name"
           v-bind:src="getStickerUrl(stickerData.img_url)">
       
         <div style="height:100px" class="row mt-2">
-          <img class="d-inline col-md-4 h-25" v-bind:src="require(`../assets/img/${stickerData.country_code}.svg`)" alt="Card image cap">
-          <span class="h-auto m-0 p-0 d-inline align-top text-justify col-md-8 overflow-hidden stickerDescription">
+          <img class="d-inline col-md-4 p-0 h-25" v-bind:src="require(`../assets/img/${stickerData.country_code}.svg`)" alt="Card image cap">
+          <span class="h-auto d-inline align-top text-justify p-0 col-md-7 overflow-hidden stickerDescription">
           {{stickerData.description}}</span>
         </div>
         <div style="height:50px" class="row m-2 text-center vertical-middle">
         <span  v-bind:class="['stickerPosition', 'stickerPosition'+ stickerData.position]" 
                class="d-inline mr-4"></span>
-        <a href="#" style="font-size:1.5em;" class="d-inline w-75 col-md-offset-0 btn btn-primary
-             text-center font-weight-light btn btn-primary">Traded</a>
+        <a href="#" style="font-size:1.5em;" class="d-inline col-sm-9 w-auto col-md-offset-0 btn btn-primary
+           text-center font-weight-light btn btn-primary">Traded</a>
         </div>
     </div>
   </div>
