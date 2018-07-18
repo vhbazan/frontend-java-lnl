@@ -8,6 +8,7 @@ const getPositionClassName = (position) => {
   return  styles["stickerPosition" + position]; 
 }
 
+
 const StickerCard = (props) => (
   <Card className="col-md-3">
     <CardTitle className="text-center align-middle mb-1">{props.sticker.name}</CardTitle>
